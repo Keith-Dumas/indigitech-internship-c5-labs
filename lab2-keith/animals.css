@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+     border-collapse: collapse;
+    padding: 5px;
+}
+#rhino {
+    max-width: 100px; max-height: 200px;
+}
+#chameleon {
+    max-width: 100px; max-height: 200px;
+}
+#moose {
+    max-width: 100px; max-height: 200px;
+}
+#jaguar {
+    max-width: 100px; max-height: 200px;
+}
+#elephant {
+    max-width: 100px; max-height: 200px;
+}
+#tiger {
+    max-width: 100px; max-height: 200px;
+}
+#thylacine {
+    max-width: 100px; max-height: 200px;
+}
