@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Light Switch 2</title>
+  </head>
+  <style>
+    body {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+    }
+    p {
+      width: 25%;
+      margin: auto;
+    }
+  </style>
+  <!-- october 7, keith, lab 26 -->
+  <body>
+    <p>
+      <img id="light" src="images/on.gif" />
+    </p>
+    <p id="status">The light is now on</p>
+    <p>Click on a button to switch the light</p>
+    <p>
+      <input type="button" id="switch" value="switch light" />
+    </p>
+
+    <script>
+      //notes moved below
+
+      var switchBtn = document.getElementById("switch");
+      var lightImg = document.getElementById("light");
+      var status_ = document.getElementById("status");
+
+      var isOn = true;
+
+      function SwitchLight() {
+        if (isOn) {
+          lightImg.src = "images/off.gif";
+          status_.innerText = "The light is now off";
+          status_.style.backgroundColor = "lightgray";
+          isOn = false;
+        } else {
+          lightImg.src = "images/on.gif";
+          status_.innerText = "The light is now on";
+          status_.style.backgroundColor = "yellow";
+          isOn = true;
+        }
+      }
+
+      switchBtn.addEventListener("click", SwitchLight);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </script>
+  </body>
+</html>

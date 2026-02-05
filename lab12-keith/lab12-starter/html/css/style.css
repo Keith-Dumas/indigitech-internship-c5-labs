@@ -1,0 +1,33 @@
+/* Keith, lab12, august 18 */
+header {
+    background-color: aqua;
+}
+nav ul li{
+    background-color: orange;
+    border: 2px dashed black;
+    padding: 10px;
+}
+a {
+    color: black;
+}
+#intro {
+    background-color: darkgoldenrod;
+    border: 2px dashed black;
+}
+#main {
+    background-color: goldenrod;
+    border: 2px dashed black;
+}
+#side1 {
+    border: 2px dashed black;
+    background-color: burlywood;
+}
+#side2 {
+    border: 2px dashed black;
+    background-color: burlywood;
+}
+footer p {
+    border: 2px dashed orange;
+    background-color: blueviolet;
+    color: white;
+}

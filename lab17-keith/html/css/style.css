@@ -1,0 +1,26 @@
+/*spetember 3, keith, lab17*/
+
+
+html {
+    background-color: black;
+}
+body {
+    background-color: darkblue;
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    color: brown;
+    padding: 3%;
+    border: 1px solid brown;
+    border-radius: 15%;
+}
+header, main, footer {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5%;
+    border: 2px solid red;
+    border-radius: 15%;
+    background-color: aliceblue;
+}

@@ -1,0 +1,79 @@
+/* Keith Dumas,Lab 10, August 13*/
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    text-align: center;
+}
+img {
+    max-width: 25vw;
+}
+.jim {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px; 
+    padding: 50px;
+
+}
+.jim-art, .bill-art, .tim-art, .dempsey-art, .beau-art, .lucy-art {
+    padding: 30px;
+}
+.bill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+
+
+}
+.tim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+
+}
+.dempsey {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.beau {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.lucy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}

@@ -1,0 +1,40 @@
+body{
+			width: 60%;
+			border: 5px dashed red;
+			margin: auto;
+		}
+
+span {
+    font-style: italic;
+    color: green;
+}
+
+#one {
+    background-color: lightblue;
+    width: 60%;
+    text-align: right;
+}
+#two {
+    border: 5px solid black;
+    width: 25%;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+#three {
+    border: 5px solid blue;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#four {
+    border: 5px solid black;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#five {
+    border: 5px solid black;
+    margin: auto;
+    width: 80%;
+}
+#image {
+    width: 100%;
+}

@@ -1,0 +1,131 @@
+/* Keith Dumas,Lab 11, August 14*/
+
+body {
+    text-align: center;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "h1 h1 h1"
+    "nav nav nav"
+    ;
+    gap: 20px;
+}
+nav {
+    grid-area: nav;
+}
+h1 {
+    grid-area: h1;
+}
+
+#pasta {
+    display: grid;
+    grid-template-columns: repeat(3fr 2fr);
+    grid-template-areas: 
+    "pas1 pas2"
+    "pas3 pas2"
+    "pas3 pas4";
+    gap: 1rem;
+    background-color: hotpink;
+
+}
+.pas1 {
+    grid-area: pas1;
+    background-color: brown;
+}
+.pas2 {
+    grid-area: pas2;
+    background-color: chocolate;
+}
+.pas3 {
+    grid-area: pas3;
+    background-color: burlywood;
+}
+.pas4 {
+    grid-area: pas4;
+    background-color: coral;
+}
+
+#pasta img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+#soup img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+#dessert img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+#soup {
+    display: grid;
+    grid-template-columns: repeat(3fr 2fr);
+    grid-template-areas: 
+    "so1 so2"
+    "so3 so2"
+    "so3 so4"
+    
+    
+    
+    ;
+    gap: 1rem;
+    background-color: darkseagreen;
+}
+.so1 {
+    grid-area: so1;
+    background-color: darkslategray;
+}
+.so2 {
+    grid-area: so2;
+    background-color: dimgray;
+}
+.so3 {
+    grid-area: so3;
+    background-color: lightslategray;
+}
+.so4 {
+    grid-area: so4;
+    background-color: slategray;
+}
+
+
+
+
+#dessert {
+    display: grid;
+    grid-template-columns: repeat(3fr 2fr);
+    grid-template-areas: 
+    "des1 des2"
+    "des3 des2"
+    "des3 des4"
+    
+    
+    
+    ;
+    gap: 1rem;
+    background-color: blueviolet;
+}
+.des1 {
+    grid-area: des1;
+    background-color: darkblue;
+}
+.des2 {
+    grid-area: des2;
+    background-color: aqua;
+}
+.des3 {
+    grid-area: des3;
+    background-color: cornflowerblue;
+}
+.des4 {
+    grid-area: des4;
+    background-color: darkturquoise;
+}

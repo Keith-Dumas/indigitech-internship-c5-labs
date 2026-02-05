@@ -1,0 +1,13 @@
+/*september 10, keith, lab 19*/
+
+body {
+    background-color: bisque;
+    width: 60%;
+    margin: auto;
+}
+header, main, div {
+    border: 5px solid red;
+    padding: 5%;
+    margin: auto;
+    width: 50%;
+}

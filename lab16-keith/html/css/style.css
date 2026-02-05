@@ -1,0 +1,15 @@
+/*september 2, keith, lab 16*/
+
+body {
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    font-style: italic;
+}
+header, main, footer {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid red;
+}

@@ -1,0 +1,64 @@
+/* Keith, lab 13, august 19 */
+.rock {
+    background-color: black;
+    color: crimson;
+}
+li{
+    border: 1px solid blue;
+    padding: 10px;
+}
+li:hover {
+    background-color: white;
+    padding: 10%;
+}
+
+h2 {
+    color: palevioletred;
+    padding: 2%;
+    background-color: rgb(14, 4, 4);
+}
+#crazy2 h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: brown;
+
+}
+header {
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(43, 3, 3);
+}
+
+
+/* Keith, lab 13, august 20 */
+.line {
+    background-color: black;
+    color: crimson;
+}
+.line h3 {
+    border: 1px dashed red;
+    color: blue;
+    padding: 10px;
+}
+h1, h2, h3 {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+
+
+.info {
+    color: blue;
+}
+.info header {
+    color: blueviolet;
+}
+.info {
+    background-color: black;
+}
+.info p {
+    font-size: larger;
+}
+

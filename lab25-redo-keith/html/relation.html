@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+    <h1>Find Relation</h1>
+  <form id="Rform">
+    <fieldset>
+      <input type="text" id="Num1">
+      <span id="relation">?</span>
+      <input type="text" id="Num2">
+    </fieldset>
+    <button type="button" id="Btn">Find Relation</button>
+    <p id="Invalid"></p>
+  </form>
+</body>
+<!-- october 3, keith, lab25-redo -->
+<script>
+    var button1 = document.getElementById("Btn");
+    button1.addEventListener("click", findRelation);
+    button1.addEventListener("click", colorRelation);
+    
+
+    var relation = document.getElementById("relation");
+
+    function colorRelation(){
+      relation.style.color = "green";
+      relation.style.border = "2px solid red";
+    }
+
+     function findRelation() {
+    var num1 = Number(document.getElementById("Num1").value);
+    var num2 = Number(document.getElementById("Num2").value);
+    document.getElementById("Invalid").textContent = "";
+
+    if (isNaN(num1) || isNaN(num2)) {
+      document.getElementById("Invalid").textContent = "Invalid input!";
+      document.getElementById("relation").textContent = "?";
+    } else if (num1 < num2) {
+      relation.textContent = "<";
+    } else if (num1 > num2) {
+      relation.textContent = ">";
+    } else {
+      relation.textContent = "=";
+    }
+  }
+
+
+</script>
+</html>

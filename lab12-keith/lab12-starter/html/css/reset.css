@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* Keith, lab12, august 18 */
+
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+   line-height: 1;
+   font-size: 100%;
+   box-sizing: border-box;
+}
+
+
+nav ul a{
+   text-decoration: none;
+}
+
+
+nav ul {
+   list-style-type: none;
+}

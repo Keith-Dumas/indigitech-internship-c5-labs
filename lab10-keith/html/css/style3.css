@@ -1,0 +1,45 @@
+/* Keith Dumas,Lab 10, August 13*/
+
+html {
+    background-color: black;
+}
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+nav ul a{
+   text-decoration: none;
+   color: bisque;
+   font-size: xx-large;
+}
+
+nav ul{
+   list-style-type: none;
+}
+ul {
+    background-color: burlywood;
+}
+main {
+    background-color: burlywood;
+}
+h1 {
+    background-color: chocolate;
+    padding: 20px;
+    color: brown;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    font-size: x-large;
+    padding: 20px;
+}
+header {
+    background-color: brown;
+}
+#jim, #bill, #tim, #dempsey, #lucy, #beau {
+    background-color: bisque;
+    padding: 30px;
+}
+.jim-art, .bill-art, .tim-art, .dempsey-art, .beau-art, .lucy-art {
+    background-color: black;
+}

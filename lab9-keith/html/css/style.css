@@ -1,0 +1,50 @@
+/* Keith Dumas,Lab 9, August 11*/
+
+h1 {
+    color: purple;
+    font-size: xx-large;
+    border: 5px solid blue;
+    padding: 20px;
+    background-color: red;
+}
+
+p, h3, li{
+    text-decoration: wavy greenyellow;
+    color: chartreuse;
+}
+body {
+    background-color: black;
+}
+.game {
+    border: 5px solid purple;
+    padding: 20px;
+    margin: auto;
+    background-color: darkblue;
+}
+nav {
+    background-color: blue;
+    border: 5px solid red;
+    padding: 20px;
+    font-size: x-large;
+}
+li {
+    padding: 10px;
+}
+.sega {
+    border: 5px solid purple;
+    padding: 20px;
+    margin: auto;
+    background-color: darkblue;
+}
+.nes1 {
+    border: 5px solid purple;
+    padding: 20px;
+    margin: auto;
+    background-color: darkblue;
+}
+img {
+    border: 5px solid purple;
+    padding: 20px;
+    margin: auto;
+    background-color: black;
+}

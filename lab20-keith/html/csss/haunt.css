@@ -1,0 +1,23 @@
+/* lab 20, keith, september 12*/
+
+body {
+    background-color: black;
+    width: 60%;
+    margin: auto;
+}
+header {
+    padding: 5%;
+    border: 5px solid crimson;
+    margin: auto;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-size: xx-large;
+    color: red;
+    text-align: center;
+}
+p {
+    color: purple;
+    text-align: center;
+}

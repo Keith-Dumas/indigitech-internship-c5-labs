@@ -1,0 +1,44 @@
+
+/* Keith Dumas,Lab 10, August 12*/
+
+
+#bill, #tim, #dempsey, #beau, #lucy, #jim {
+    background-color: bisque;
+    padding: 30px;
+    width: 50%;
+}
+html {
+    background-color: black;
+}
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+nav ul a{
+   text-decoration: none;
+   color: bisque;
+   font-size: xx-large;
+}
+nav ul{
+   list-style-type: none;
+}
+ul {
+    background-color: burlywood;
+}
+main {
+    background-color: burlywood;
+}
+h1 {
+    background-color: chocolate;
+    padding: 20px;
+    color: brown;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    font-size: x-large;
+    padding: 20px;
+}
+header {
+    background-color: brown;
+}

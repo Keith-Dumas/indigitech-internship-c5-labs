@@ -1,0 +1,34 @@
+h1 {
+    font-size: xx-large;
+}
+header {
+    background-color: bisque;
+}
+a {
+    color: red;
+}
+span {
+    color: blueviolet;
+    font-style: italic;
+}
+#about {
+    background-color: beige;
+}
+.p1, .p2 {
+    background-color: azure;
+}
+.p3 {
+    background-color: burlywood;
+}
+.p4 {
+    background-color: chocolate;
+}
+img {
+    background-color: black;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article {
+    border: 5px solid chocolate;
+}

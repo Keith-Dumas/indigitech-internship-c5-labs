@@ -1,0 +1,43 @@
+/* Keith Dumas,Lab 9, August 11*/
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    max-width: 150px;
+    max-height: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.game {
+    width: 20%;
+    
+}
+footer {
+    display: flex;
+    flex-direction: row;
+}
+.sega {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+.nes1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+
+}

@@ -1,0 +1,83 @@
+/* Keith, lab12, august 18 */
+
+body {
+    width: 80%;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "link link link"
+    "intro main side1"
+    "intro main side1"
+    "intro main side2"
+    "foot foot foot"
+    ;
+    gap: 2rem;
+}
+p {
+    margin-bottom: 2em;
+}
+header {
+    grid-area: header;
+    text-align: center;
+    border: 2px dashed black;
+    text-align: center;
+}
+nav {
+    grid-area: link;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+nav ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+}
+h1 {
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+}
+#intro {
+    grid-area: intro;
+    padding: 10px;
+}
+#main {
+    grid-area: main;
+    padding: 20px;
+}
+#side1 {
+    grid-area: side1;
+    padding: 10px;
+    width: 100%;
+}
+aside ul {
+    list-style-position: inside;
+    margin: 0;
+    padding-left: 0;
+    
+}
+aside ol {
+    list-style-position: inside;
+    margin: 0;
+    padding-left: 0;
+}
+#side2 {
+    grid-area: side2;
+    padding: 10px;
+}
+footer {
+    grid-area: foot;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1rem 1rem;
+}
+footer p {
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* Keith, lab 13, august 19 */
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+   line-height: 1;
+   font-size: 100%;
+   box-sizing: border-box;
+}
+
+
+nav ul a{
+   text-decoration: none;
+}
+
+nav ul{
+   list-style-type: none;
+}

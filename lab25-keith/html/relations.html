@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Relations - Lab</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- october 2, keith, lab25 -->
+<body>
+
+  <h1>Find Relation</h1>
+  <p>enter two numbers to find there relation to each other</p>
+
+  <form id="relationForm">
+    <fieldset>
+      <input type="text" id="leftNum" >
+
+      <!-- use span to just make it look nice -->
+      <span id="relation">?</span>
+
+      <input type="text" id="rightNum" >
+
+      
+    </fieldset>
+    <button type="button" id="findBtn">Find Relation</button>
+    <button type="button" id="findBtn2">Find Relation</button>
+  </form>
+
+  <script>
+    // function findRelation() {
+    //   //can use number to turn the strings into number
+    //   //use number if we expect it to be a valid number(can't put 100px)
+    //   let num1 = Number(document.getElementById("leftNum").value);
+    //   let num2 = Number(document.getElementById("rightNum").value);
+
+      
+    //   if (num1 < num2) {
+    //     //innerHTML will see < as a tag and break, text content doesn't have this problem
+    //     //innerText also works, difference is it cares about ccs where as textContent doesn't
+    //     document.getElementById("relation").textContent = "<";
+    //   } else if (num1 > num2) {
+    //     document.getElementById("relation").textContent = ">";
+    //   } else {
+    //     document.getElementById("relation").textContent = "=";
+    //   }
+    // }
+
+    // //avoids creating a variable as button isn't written anywhere else(only need one event per click)
+    // document.getElementById("findBtn").addEventListener("click", findRelation);
+
+
+
+    //teaching part
+
+
+
+      
+    var button1 = document.getElementById("findBtn");
+    button1.addEventListener("click", findRelation);
+    button1.addEventListener("click", colorRelation);
+
+    var relation = document.getElementById("relation");
+    function colorRelation(){
+      relation.style.color = "red"
+    }
+
+    function findRelation(){
+
+      var num1 = Number(document.getElementById("leftNum").value);
+      var num2 = Number(document.getElementById("rightNum").value);
+
+      if (num1 < num2){
+        document.getElementById("relation").textContent = "<";
+      }else if (num1 > num2){
+        document.getElementById("relation").textContent = ">";
+      }else{
+        document.getElementById("relation").textContent = "=";
+      }
+
+
+    }
+
+    document.getElementById("findBtn").addEventListener("click", findRelation);
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

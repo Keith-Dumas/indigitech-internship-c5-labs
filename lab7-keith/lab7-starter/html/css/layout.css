@@ -1,0 +1,54 @@
+@charset "utf-8";
+body {
+   overflow: auto;
+   width: 80%;
+   min-width: 780px;
+   max-width: 1200px;
+   margin: auto;
+   background-color: chocolate;
+   }
+   header img {
+      float: left;
+      width: 75%;
+   }
+   
+   .vertical ul li a{
+      height: 58.7px;
+      width: 25%;
+      float: right;
+      padding: 10px;
+   }
+
+   .horizontal ul li {
+      padding: 10px;
+      float: left;
+      width: 12.5%;
+      text-align: center;
+   }
+
+section{
+    float: left;
+    padding: 10px;
+    width: 25%;
+    margin: auto;
+}
+
+section img{
+   width: 60%;
+}
+#leftAside {
+   width: 50%;
+   float: left;
+   padding: 40px;
+
+}
+#rightAside {
+   width: 50%;
+   float: right;
+   padding: 31px;
+}
+footer {
+   text-align: center;
+   padding: 10px;
+   padding-top: 20px;
+}

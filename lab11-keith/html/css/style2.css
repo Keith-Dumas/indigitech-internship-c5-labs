@@ -1,0 +1,36 @@
+h1 {
+    font-size: xx-large;
+}
+header {
+    background-color: bisque;
+}
+a {
+    color: red;
+}
+span {
+    color: blueviolet;
+    font-style: italic;
+}
+#about {
+    background-color: beige;
+}
+.p1, .p2 {
+    background-color: azure;
+}
+.p3 {
+    background-color: burlywood;
+}
+.p4 {
+    background-color: chocolate;
+}
+img {
+    background-color: black;
+    padding: 30px;
+}
+article {
+    border: 5px solid black;
+}
+.pas1, .pas2, .pas3, .pas4, .so1,.so2,.so3,.so4, .des1,.des2,.des3,.des4 {
+    border: 5px solid black;
+    padding: 20px;
+}

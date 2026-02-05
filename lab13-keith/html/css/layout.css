@@ -1,0 +1,207 @@
+/* Keith, lab 13, august 19 */
+
+
+
+
+.rock{
+    max-width: 600px;
+        display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "head head head"
+    "crazy sec1 sec1"
+    "crazy3 crazy3 crazy3"
+    "crim1 crim2 crim3"
+    "crazy2 crazy2 crazy2"
+    "footer footer footer"
+    ;
+    gap: 5%;
+    }
+    .rock header{grid-area: head;}
+    .rock nav {grid-area: nav;}
+    .rock #sec1{grid-area: sec1;}
+    .rock #crazy {grid-area: crazy;}
+    .rock #crazy2 {grid-area: crazy2;}
+    .rock #crazy3 {grid-area: crazy3;}
+    .rock #crim1 {grid-area: crim1;}
+    .rock #crim2 {grid-area: crim2;}
+    .rock #crim3 {grid-area: crim3;}
+    .rock footer {grid-area: footer;}
+
+
+@media (min-width:480px) and (max-width:768px) {
+    .rock{
+        max-width: 600px;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "head head"
+    "sec1 sec1"
+    "crazy3 crazy3"
+    "crim1 crim2"
+    "crazy2 crazy2"
+    ;
+    gap: 5%;
+    }
+    .rock header{grid-area: head;}
+    .rock nav {grid-area: nav;}
+    .rock #sec1{grid-area: sec1;}
+    .rock #crazy {grid-area: crazy;}
+    .rock #crazy2 {grid-area: crazy2;}
+    .rock #crazy3 {grid-area: crazy3;}
+    .rock #crim1 {grid-area: crim1;}
+    .rock #crim2 {grid-area: crim2;}
+
+}
+@media (max-width:1024px) and (min-width:768px) {
+    .rock{
+        max-width: 600px;
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "head head"
+    "sec1 sec1"
+    "crazy3 crazy3"
+    "crim1 crim2"
+    "crazy2 crazy2"
+    ;
+    gap: 5%;
+    }
+    .rock header{grid-area: head;}
+    .rock nav {grid-area: nav;}
+    .rock #sec1{grid-area: sec1;}
+    .rock #crazy {grid-area: crazy;}
+    .rock #crazy2 {grid-area: crazy2;}
+    .rock #crazy3 {grid-area: crazy3;}
+    .rock #crim1 {grid-area: crim1;}
+    .rock #crim2 {grid-area: crim2;}
+}
+
+#sec1 {
+    max-width: 90%;
+    max-height: 40%;
+}
+
+.rock #crazy{
+    max-width: 50vw;
+    
+}
+img {
+    max-width: 30vw;
+    padding: 2%;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* Keith, lab 13, august 20 */
+@media (min-width:480px) and (max-width:768px) {
+    
+    .line{
+    text-align: center;
+        display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "nav nav nav"
+    "head head head"
+    "o o o"
+    "a1 or a2"
+    "a3 t a4"
+    "l l l"
+    "l1 l2 l3"
+    "l4 l5 l6"
+    ;
+    gap: 5%;
+    }
+    .line header{grid-area: head;}
+    .line nav {grid-area: nav;}
+    .line #o {grid-area: o;}
+    .line #a1 {grid-area: a1;}
+    .line #a2 {grid-area: a2;}
+    .line #a3 {grid-area: a3;}
+    .line #a4 {grid-area: a4;}
+    .line #ab {grid-area: ab;}
+    .line #l  {grid-area: l;}
+    .line #l1 {grid-area: l1;}
+    .line #l2 {grid-area: l2;}
+    .line #l3 {grid-area: l3;}
+    .line #l4 {grid-area: l4;}
+    .line #l5 {grid-area: l5;}
+    .line #l6 {grid-area: l6;}
+    .line #or {grid-area: or;}
+    .line #t {grid-area: t;}
+
+}
+.line{
+    text-align: center;
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "head head head"
+    "o o o"
+    "a1 or a2"
+    "a3 t a4"
+    "l l l"
+    "l1 l2 l3"
+    "l4 l5 l6"
+    ;
+    gap: 5%;
+    }
+    .line header{grid-area: head;}
+    .line nav {grid-area: nav;}
+    .line #o {grid-area: o;}
+    .line #a1 {grid-area: a1;}
+    .line #a2 {grid-area: a2;}
+    .line #a3 {grid-area: a3;}
+    .line #a4 {grid-area: a4;}
+    .line #ab {grid-area: ab;}
+    .line #l  {grid-area: l;}
+    .line #l1 {grid-area: l1;}
+    .line #l2 {grid-area: l2;}
+    .line #l3 {grid-area: l3;}
+    .line #l4 {grid-area: l4;}
+    .line #l5 {grid-area: l5;}
+    .line #l6 {grid-area: l6;}
+    .line #or {grid-area: or;}
+    .line #t {grid-area: t;}
+.line h1, h2, h3 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+/* Keith, lab 13, august 20 */
+.info{
+    text-align: center;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "head head head"
+    "ra ra ra"
+    "r r r"
+    "a1 a1 a1"
+    "s sc ap"
+    ;
+    }
+     .info header{grid-area: head;}
+    .info nav {grid-area: nav;}
+    .info #rocka {grid-area: ra;}
+    .info #rock {grid-area: r;}
+    .info #stock {grid-area: s;}
+    .info #stockc {grid-area: sc;}
+    .info #a1 {grid-area: a1;}
+    .info #ap {grid-area: ap;}
+
+
+
+
+

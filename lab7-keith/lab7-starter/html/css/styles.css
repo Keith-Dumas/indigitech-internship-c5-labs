@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* Keith Dumas,Lab 7, August 8 */
+html {
+    color: chocolate;
+}
+section, aside, div {
+    background-color: bisque;
+}
+.vertical ul li a {
+    background-color:cornflowerblue ;
+    color: white;
+}
+.horizontal ul li {
+    background-color: navy;
+}
+.horizontal a {
+    color: white;
+}
+#leftAside, #rightAside {
+    color: black;
+    font-size: large;
+}
+footer {
+   color: white;
+   background-color: darkcyan;
+}
+section {
+    color: blue;
+}
